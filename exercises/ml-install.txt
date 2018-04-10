@@ -1,0 +1,32 @@
+Installation instructions for the ML environement
+=================================================
+
+
+1. Download and install Anaconda from https://www.continuum.io/downloads that contains all important Python packages. If you have limited diskspace install Miniconda https://conda.io/miniconda.html instead, which contains only conda and Python.
+
+2. Download ml.yml from Stud.IP (from the folder Exercises in the Files section). Then in the terminal navigate to the directory where you saved ml.yml and run
+
+    conda env create -f ml.yml 
+
+
+After a successful installation, you should be able to activate the environment 
+ * On Linux/Mac OS type
+
+    source activate ml
+    
+ * On Windows type
+
+    activate ml
+    
+Always activate the enviornment when you work on the homework. To deactivate the environment again run
+
+ * On Linux/Mac OS type
+
+    source deactivate
+    
+ * On Windows type
+
+    deactivate
+
+In case of any question do not hesitate to contact your tutor.
+
