@@ -1,0 +1,11 @@
+import importlib
+
+assert importlib.util.find_spec('numpy') is not None , 'numpy not found'
+assert importlib.util.find_spec('matplotlib') is not None, 'matplotlib not found'
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+figure_intro = plt.figure('Example plot')
+plt.plot(np.random.randn(1000, 1))
+figure_intro.canvas.draw()
